@@ -1,0 +1,64 @@
+<div>
+  <div class="theControls">
+    <button id="shuffleButton" onClick="createShoe()" >
+      Shuffle the deck
+    </button>
+    <button id="dealButton" onClick="dealAHand(theShoe, theDiscard)">
+      Deal a hand
+    </button>
+    <h1 style="text-align:center">
+      <span style="color:black">&spades;</span>
+      <span style="color:red">&hearts;</span>
+      <span style="color:black"> &clubs;</span>
+      <span style="color:red"> &diams;</span>
+    </h1>
+    <div class="hl">
+    </div>
+  </div>
+  
+  <div id="theTable">
+  </div>
+  <br>
+
+  <div class="flex-container" id="cardRow">
+    <div class="horizontal-card" id="bankerThird">
+      <span class="suit"></span>
+      <span class="image"></span>
+    </div>
+    <div class="vertical-card" id="bankerSecond">
+      <span class="suit"></span>
+      <span class="image"></span>
+    </div>
+    <div class="vertical-card" id="bankerFirst">
+      <span class="suit"></span>
+      <span class="image"></span>
+    </div>
+    <div class="vl">
+    </div>
+    <div class="vertical-card" id="playerSecond">
+      <span class="suit"></span>
+      <span class="image"></span>
+    </div>
+    <div class="vertical-card" id="playerFirst">
+      <span class="suit"></span>
+      <span class="image"></span>
+    </div>
+    <div class="horizontal-card" id="playerThird">
+      <span class="suit"></span>
+      <span class="image"></span>
+    </div>
+  </div>
+
+  <div class="flex-container">
+    <div>
+      <h1>
+        <span style="color:red">Banker</span>
+      </h1>
+    </div>
+    <div>
+      <h1>
+        <span style="color:powderblue">Player</span>
+      </h1>
+    </div>
+  </div>
+</div>
